@@ -1,0 +1,153 @@
+body{
+    background-image: url(images.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    margin: 0px;
+    font-family: myFirstFont;
+
+}
+.content{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    background-color: white;
+    width: 80vw ;
+    height: auto ;
+    box-shadow: 5px 5px 50px 5px rgb(0, 0, 0);
+    border-radius: 7px;
+
+}
+.box_header{
+    text-align: center;
+}
+.box_header_h1,.box_header_p{
+    color: gray;
+
+}
+.box_header_h2,.box_header_p{
+    text-align: center;
+    margin-top: -15px;
+}
+.card{
+    width: 300px;
+    height: 230px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 3px 3px 30px  5px gray;
+
+}
+
+.cards_card1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 100px;
+    padding: 20px;  
+    justify-content:space-evenly;
+}
+.cards_card2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 100px;
+    padding: 20px;  
+    justify-content:space-evenly;
+
+}
+.card1_cards1{
+    position: absolute;
+    margin-top: 132px;
+    margin-right: 644px;
+    border-top: 2px solid aqua;
+}
+
+.card1_cards2{
+    border-top: 2px solid red;
+}
+
+.card2_cards3{
+    border-top: 2px solid yellow ;
+}
+
+  .card2_cards4{
+    position: absolute;
+    margin: -138px;
+    margin-left: -138px;
+  margin-left: 504px;
+  border-top: 2px solid aqua;
+
+}
+
+.card_content{
+    padding-left: 15px;    
+    }
+    .fa{
+        font-size:48px;
+        padding-left: 230px;
+        padding-top: 20px;
+    }
+    
+    .card_content_p{
+        width: 200px;
+        text-align: left;
+    }
+    
+
+
+@media screen and (max-width: 1225px){
+    .cards_card1{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        gap: 20px;        
+    }
+
+    .cards_card2{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        gap: 20px;
+        padding-bottom: 100px;
+        
+    }
+    .card1_cards1{
+        position: relative;
+        margin: 0px;
+        margin-left: 0px;
+      margin-left: 0px;
+    
+    }
+
+    .card2_cards4{
+        position: relative;
+        margin: 0px;
+        margin-left: 0px;
+      margin-left: 0px;
+    
+    }
+
+    
+}
+
+@media screen and (max-width: 800px){
+
+    .cards_card1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards_card2{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(B-NAZANIN.TTF);
+  }
